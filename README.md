@@ -27,21 +27,9 @@
 
 ### 02 — Stack
 
-<table>
-<tr><td><b>Lang</b></td><td><img src="https://skillicons.dev/icons?i=py,ts,js,java,cs,php&theme=dark"/></td></tr>
-<tr><td><b>Web</b></td><td><img src="https://skillicons.dev/icons?i=react,vue,nextjs,html,css,tailwind&theme=dark"/></td></tr>
-<tr><td><b>Server</b></td><td><img src="https://skillicons.dev/icons?i=nodejs,nestjs,fastapi,flask,spring&theme=dark"/></td></tr>
-<tr><td><b>Data</b></td><td><img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis&theme=dark"/>&nbsp;<img src="https://img.shields.io/badge/Neo4j-1a1f2e?style=flat-square&logo=neo4j&logoColor=4DABF7"/></td></tr>
-<tr><td><b>Cloud</b></td><td><img src="https://skillicons.dev/icons?i=docker,kubernetes,githubactions,gitlab,nginx,linux,aws,azure&theme=dark"/></td></tr>
-<tr><td><b>AI / LLM</b></td><td>
-<img src="https://img.shields.io/badge/OpenAI_API-161B22?style=flat-square&logo=openai&logoColor=white"/>
-<img src="https://img.shields.io/badge/Claude_API-161B22?style=flat-square&color=6366F1"/>
-<img src="https://img.shields.io/badge/RAG-161B22?style=flat-square&color=2DD4BF"/>
-<img src="https://img.shields.io/badge/AI_Agents-161B22?style=flat-square&color=6366F1"/>
-<img src="https://img.shields.io/badge/Prompt_Engineering-161B22?style=flat-square&color=2DD4BF"/>
-</td></tr>
-<tr><td><b>Tools</b></td><td><img src="https://skillicons.dev/icons?i=git,github,vscode,postman,bash&theme=dark"/>&nbsp;<img src="https://img.shields.io/badge/Burp_Suite-1a1f2e?style=flat-square&logo=burpsuite&logoColor=FF6633"/></td></tr>
-</table>
+<div align="center">
+<img src="assets/tech-field.svg" width="100%" alt="tech stack"/>
+</div>
 
 ### 03 — Workflow · life @ Askeal
 
@@ -91,26 +79,15 @@
 
 </details>
 
-### 05 — Metrics
+### 05 — Live Stats
+
+<p align="center"><sub>Rendered daily by a script I wrote — not a shared badge service. Pulls real numbers straight from the GitHub API.</sub></p>
 
 <div align="center">
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Yashvi-tank&bg_color=0B0F19&color=94A3B8&line=6366F1&point=2DD4BF&area=true&area_color=6366F1&hide_border=true"/>
-<br/>
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Yashvi-tank&show_icons=true&hide_border=true&bg_color=0B0F19&title_color=6366F1&icon_color=2DD4BF&text_color=94A3B8"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yashvi-tank&layout=compact&hide_border=true&bg_color=0B0F19&title_color=6366F1&text_color=94A3B8"/>
+<img src="assets/stats-live.svg" width="100%" alt="live GitHub stats"/>
 </div>
 
-### 06 — Contributions
-
-<div align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Yashvi-tank/Yashvi-tank/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Yashvi-tank/Yashvi-tank/output/github-contribution-grid-snake.svg" />
-  <img alt="contribution snake animation" src="https://raw.githubusercontent.com/Yashvi-tank/Yashvi-tank/output/github-contribution-grid-snake.svg" />
-</picture>
-</div>
-
-### 07 — Connect
+### 06 — Connect
 
 <div align="center">
 
