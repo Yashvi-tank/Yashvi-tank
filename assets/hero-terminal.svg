@@ -1,0 +1,71 @@
+<svg width="900" height="220" viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05010d">
+        <animate attributeName="stop-color" values="#05010d;#150a2e;#05010d" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#1b0836">
+        <animate attributeName="stop-color" values="#1b0836;#3a0ca3;#1b0836" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#05010d">
+        <animate attributeName="stop-color" values="#05010d;#062033;#05010d" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8A2BE2"/>
+      <stop offset="50%" stop-color="#00BFFF"/>
+      <stop offset="100%" stop-color="#00F5FF"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="4.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="900" height="220" fill="url(#bgGrad)"/>
+  <rect x="1" y="1" width="898" height="218" fill="none" stroke="#00F5FF" stroke-opacity="0.25" stroke-width="1"/>
+
+  <g opacity="0.10">
+    <rect x="0" y="0" width="900" height="2" fill="#00F5FF">
+      <animate attributeName="y" values="0;220;0" dur="4.5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <g stroke-width="1.4" fill="none" opacity="0.55">
+    <path d="M36,36 L190,36 L212,58 L360,58" stroke="#8A2BE2" stroke-dasharray="400" stroke-dashoffset="400">
+      <animate attributeName="stroke-dashoffset" values="400;0" dur="2.2s" fill="freeze"/>
+    </path>
+    <path d="M864,184 L710,184 L688,162 L540,162" stroke="#00F5FF" stroke-dasharray="400" stroke-dashoffset="400">
+      <animate attributeName="stroke-dashoffset" values="400;0" dur="2.2s" begin="0.3s" fill="freeze"/>
+    </path>
+    <circle cx="36" cy="36" r="3" fill="#8A2BE2"/>
+    <circle cx="864" cy="184" r="3" fill="#00F5FF"/>
+  </g>
+
+  <text x="452" y="108" font-family="'Fira Code','Courier New',monospace" font-size="52" font-weight="700" text-anchor="middle" fill="#FF2E9A" opacity="0.45">
+    <animate attributeName="x" values="452;454;450;452" dur="2.6s" repeatCount="indefinite"/>
+    YASHVI.OS
+  </text>
+  <text x="448" y="108" font-family="'Fira Code','Courier New',monospace" font-size="52" font-weight="700" text-anchor="middle" fill="#00F5FF" opacity="0.45">
+    <animate attributeName="x" values="448;446;450;448" dur="2.1s" repeatCount="indefinite"/>
+    YASHVI.OS
+  </text>
+  <text x="450" y="108" font-family="'Fira Code','Courier New',monospace" font-size="52" font-weight="700" text-anchor="middle" fill="url(#titleGrad)" filter="url(#glow)">
+    YASHVI.OS
+  </text>
+
+  <text x="450" y="142" font-family="'Fira Code','Courier New',monospace" font-size="15" text-anchor="middle" fill="#c9d1d9" opacity="0.88">
+    full-stack developer // ai systems // cybersecurity
+  </text>
+  <rect x="628" y="129" width="9" height="16" fill="#00F5FF">
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.51;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="450" y="192" font-family="'Fira Code','Courier New',monospace" font-size="12" text-anchor="middle" fill="#8A2BE2" letter-spacing="1">
+    <animate attributeName="fill" values="#8A2BE2;#00F5FF;#8A2BE2" dur="4s" repeatCount="indefinite"/>
+    [ SYSTEM: ONLINE ]&#160;&#160;&#160;[ UPTIME: 99.9% ]&#160;&#160;&#160;[ MODE: PRODUCTION ]
+  </text>
+</svg>

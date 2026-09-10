@@ -1,0 +1,67 @@
+<svg width="700" height="200" viewBox="0 0 700 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="barGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8A2BE2"/>
+      <stop offset="60%" stop-color="#00BFFF"/>
+      <stop offset="100%" stop-color="#00F5FF"/>
+    </linearGradient>
+    <filter id="barGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="2.4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="700" height="200" fill="#05010d"/>
+  <rect x="1" y="1" width="698" height="198" fill="none" stroke="#00F5FF" stroke-opacity="0.2" stroke-width="1"/>
+
+  <text x="16" y="24" font-family="'Fira Code','Courier New',monospace" font-size="13" fill="#00F5FF" letter-spacing="1">MODULES.load()</text>
+  <rect x="140" y="14" width="7" height="13" fill="#00F5FF">
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.51;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <g font-family="'Fira Code','Courier New',monospace" font-size="12" fill="#c9d1d9">
+    <text x="16" y="62">BACKEND</text>
+    <text x="16" y="98">AI / ML</text>
+    <text x="16" y="134">SECURITY</text>
+    <text x="16" y="170">CLOUD</text>
+  </g>
+
+  <g>
+    <circle cx="130" cy="57" r="4" fill="#8A2BE2"><animate attributeName="opacity" values="0.3;1;0.3" dur="1.6s" repeatCount="indefinite"/></circle>
+    <circle cx="130" cy="93" r="4" fill="#00BFFF"><animate attributeName="opacity" values="0.3;1;0.3" dur="1.6s" begin="0.3s" repeatCount="indefinite"/></circle>
+    <circle cx="130" cy="129" r="4" fill="#00F5FF"><animate attributeName="opacity" values="0.3;1;0.3" dur="1.6s" begin="0.6s" repeatCount="indefinite"/></circle>
+    <circle cx="130" cy="165" r="4" fill="#8A2BE2"><animate attributeName="opacity" values="0.3;1;0.3" dur="1.6s" begin="0.9s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <g>
+    <rect x="150" y="50" width="470" height="14" rx="7" fill="#131025" stroke="#2a2140" stroke-width="1"/>
+    <rect x="150" y="86" width="470" height="14" rx="7" fill="#131025" stroke="#2a2140" stroke-width="1"/>
+    <rect x="150" y="122" width="470" height="14" rx="7" fill="#131025" stroke="#2a2140" stroke-width="1"/>
+    <rect x="150" y="158" width="470" height="14" rx="7" fill="#131025" stroke="#2a2140" stroke-width="1"/>
+  </g>
+
+  <g filter="url(#barGlow)">
+    <rect x="150" y="50" height="14" rx="7" fill="url(#barGrad)">
+      <animate attributeName="width" values="0;432;432;0" keyTimes="0;0.4;0.85;1" dur="5s" begin="0s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="150" y="86" height="14" rx="7" fill="url(#barGrad)">
+      <animate attributeName="width" values="0;413;413;0" keyTimes="0;0.4;0.85;1" dur="5s" begin="0.35s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="150" y="122" height="14" rx="7" fill="url(#barGrad)">
+      <animate attributeName="width" values="0;348;348;0" keyTimes="0;0.4;0.85;1" dur="5s" begin="0.7s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="150" y="158" height="14" rx="7" fill="url(#barGrad)">
+      <animate attributeName="width" values="0;376;376;0" keyTimes="0;0.4;0.85;1" dur="5s" begin="1.05s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <g font-family="'Fira Code','Courier New',monospace" font-size="12" fill="#00F5FF" text-anchor="end">
+    <text x="655" y="61">92%</text>
+    <text x="655" y="97">88%</text>
+    <text x="655" y="133">74%</text>
+    <text x="655" y="169">80%</text>
+  </g>
+</svg>
