@@ -1,0 +1,22 @@
+<svg width="900" height="100" viewBox="0 0 900 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366F1" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#6366F1" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#2DD4BF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="100" fill="#0B0F19"/>
+
+  <rect x="250" y="30" width="400" height="1.5" fill="url(#lineGrad)"/>
+
+  <circle cx="450" cy="30" r="2.5" fill="#2DD4BF">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <text x="450" y="62" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="13" fill="#64748B" text-anchor="middle">
+    Thanks for stopping by.
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="4s" repeatCount="indefinite"/>
+  </text>
+</svg>

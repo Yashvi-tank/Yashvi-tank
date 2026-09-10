@@ -1,6 +1,6 @@
-<svg width="900" height="150" viewBox="0 0 900 150" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="140" viewBox="0 0 900 140" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <filter id="nodeGlow" x="-80%" y="-80%" width="260%" height="260%">
+    <filter id="dotGlow" x="-150%" y="-150%" width="400%" height="400%">
       <feGaussianBlur stdDeviation="3" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
@@ -9,53 +9,56 @@
     </filter>
   </defs>
 
-  <rect width="900" height="150" fill="#05010d"/>
-  <rect x="1" y="1" width="898" height="148" fill="none" stroke="#00F5FF" stroke-opacity="0.2" stroke-width="1"/>
+  <rect width="900" height="140" fill="#0B0F19"/>
+  <rect x="0.5" y="0.5" width="899" height="139" fill="none" stroke="#ffffff" stroke-opacity="0.06" stroke-width="1"/>
 
-  <line x1="60" y1="70" x2="840" y2="70" stroke="#00BFFF" stroke-width="2" stroke-dasharray="8 6" opacity="0.6">
-    <animate attributeName="stroke-dashoffset" values="0;-28" dur="1s" repeatCount="indefinite"/>
-  </line>
+  <line x1="70" y1="60" x2="830" y2="60" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1.5"/>
 
-  <circle r="6" fill="#00F5FF" filter="url(#nodeGlow)">
-    <animate attributeName="cx" values="60;216;372;528;684;840;840" keyTimes="0;0.16;0.32;0.48;0.64;0.8;1" dur="6s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="70;70;70;70;70;70;70" dur="6s" repeatCount="indefinite"/>
+  <circle cy="60" r="5" fill="#2DD4BF" filter="url(#dotGlow)">
+    <animate attributeName="cx" values="70;222;374;526;678;830;830" keyTimes="0;0.18;0.36;0.54;0.72;0.9;1" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.94;0.97;0.99;1" dur="7s" repeatCount="indefinite"/>
   </circle>
 
-  <g font-family="'Fira Code','Courier New',monospace">
+  <g font-family="'Inter','Segoe UI',system-ui,sans-serif">
     <g>
-      <circle cx="60" cy="70" r="19" fill="#0d0b1a" stroke="#8A2BE2" stroke-width="2"/>
-      <text x="60" y="75" font-size="10" fill="#c9d1d9" text-anchor="middle">01</text>
-      <text x="60" y="112" font-size="12" fill="#c9d1d9" text-anchor="middle">FEATURE</text>
+      <circle cx="70" cy="60" r="5" fill="#6366F1" opacity="1">
+        <animate attributeName="opacity" values="1;0.55;0.55;1" keyTimes="0;0.05;0.95;1" dur="7s" repeatCount="indefinite"/>
+      </circle>
+      <text x="70" y="90" font-size="11" font-weight="600" letter-spacing="0.5" fill="#94A3B8" text-anchor="middle">FEATURE</text>
     </g>
     <g>
-      <circle cx="216" cy="70" r="19" fill="#0d0b1a" stroke="#8A2BE2" stroke-width="2"/>
-      <text x="216" y="75" font-size="10" fill="#c9d1d9" text-anchor="middle">02</text>
-      <text x="216" y="112" font-size="12" fill="#c9d1d9" text-anchor="middle">BUILD</text>
+      <circle cx="222" cy="60" r="5" fill="#6366F1" opacity="0.55">
+        <animate attributeName="opacity" values="0.55;0.55;1;0.55;0.55" keyTimes="0;0.16;0.18;0.20;1" dur="7s" repeatCount="indefinite"/>
+      </circle>
+      <text x="222" y="90" font-size="11" font-weight="600" letter-spacing="0.5" fill="#94A3B8" text-anchor="middle">BUILD</text>
     </g>
     <g>
-      <circle cx="372" cy="70" r="19" fill="#0d0b1a" stroke="#00BFFF" stroke-width="2"/>
-      <text x="372" y="75" font-size="10" fill="#c9d1d9" text-anchor="middle">03</text>
-      <text x="372" y="112" font-size="12" fill="#c9d1d9" text-anchor="middle">TEST</text>
+      <circle cx="374" cy="60" r="5" fill="#6366F1" opacity="0.55">
+        <animate attributeName="opacity" values="0.55;0.55;1;0.55;0.55" keyTimes="0;0.34;0.36;0.38;1" dur="7s" repeatCount="indefinite"/>
+      </circle>
+      <text x="374" y="90" font-size="11" font-weight="600" letter-spacing="0.5" fill="#94A3B8" text-anchor="middle">TEST</text>
     </g>
     <g>
-      <circle cx="528" cy="70" r="19" fill="#0d0b1a" stroke="#00BFFF" stroke-width="2"/>
-      <text x="528" y="75" font-size="10" fill="#c9d1d9" text-anchor="middle">04</text>
-      <text x="528" y="112" font-size="12" fill="#c9d1d9" text-anchor="middle">DEBUG</text>
+      <circle cx="526" cy="60" r="5" fill="#2DD4BF" opacity="0.55">
+        <animate attributeName="opacity" values="0.55;0.55;1;0.55;0.55" keyTimes="0;0.52;0.54;0.56;1" dur="7s" repeatCount="indefinite"/>
+      </circle>
+      <text x="526" y="90" font-size="11" font-weight="600" letter-spacing="0.5" fill="#94A3B8" text-anchor="middle">DEBUG</text>
     </g>
     <g>
-      <circle cx="684" cy="70" r="19" fill="#0d0b1a" stroke="#00F5FF" stroke-width="2"/>
-      <text x="684" y="75" font-size="10" fill="#c9d1d9" text-anchor="middle">05</text>
-      <text x="684" y="112" font-size="12" fill="#c9d1d9" text-anchor="middle">VALIDATE</text>
+      <circle cx="678" cy="60" r="5" fill="#2DD4BF" opacity="0.55">
+        <animate attributeName="opacity" values="0.55;0.55;1;0.55;0.55" keyTimes="0;0.70;0.72;0.74;1" dur="7s" repeatCount="indefinite"/>
+      </circle>
+      <text x="678" y="90" font-size="11" font-weight="600" letter-spacing="0.5" fill="#94A3B8" text-anchor="middle">VALIDATE</text>
     </g>
     <g>
-      <circle cx="840" cy="70" r="19" fill="#0d0b1a" stroke="#00F5FF" stroke-width="2"/>
-      <text x="840" y="75" font-size="10" fill="#c9d1d9" text-anchor="middle">06</text>
-      <text x="840" y="112" font-size="12" fill="#c9d1d9" text-anchor="middle">SHIP</text>
+      <circle cx="830" cy="60" r="5" fill="#2DD4BF" opacity="0.55">
+        <animate attributeName="opacity" values="0.55;0.55;1;1" keyTimes="0;0.88;0.9;1" dur="7s" repeatCount="indefinite"/>
+      </circle>
+      <text x="830" y="90" font-size="11" font-weight="600" letter-spacing="0.5" fill="#94A3B8" text-anchor="middle">SHIP</text>
     </g>
   </g>
 
-  <text x="450" y="138" font-family="'Fira Code','Courier New',monospace" font-size="11" fill="#8A2BE2" text-anchor="middle" letter-spacing="1">
-    <animate attributeName="fill" values="#8A2BE2;#00F5FF;#8A2BE2" dur="4s" repeatCount="indefinite"/>
-    feature branch -&gt; integration env -&gt; gitlab mr -&gt; rebase -&gt; production
+  <text x="450" y="120" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="11" fill="#64748B" text-anchor="middle">
+    feature branch &#8594; integration env &#8594; gitlab mr &#8594; rebase &#8594; production
   </text>
 </svg>
